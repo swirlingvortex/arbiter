@@ -1,0 +1,13 @@
+relations:
+  - type: implies
+    antecedent: MARKET_A
+    consequent: MARKET_B
+    rationale: "If A settles YES, B necessarily settles YES."
+
+  - type: mutually_exclusive
+    markets: [MARKET_C, MARKET_D]
+    rationale: "Both cannot settle YES."
+
+  - type: exactly_one
+    markets: [MARKET_E, MARKET_F, MARKET_G]
+    rationale: "Exactly one winner."

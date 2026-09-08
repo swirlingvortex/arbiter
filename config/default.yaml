@@ -1,0 +1,51 @@
+engine:
+  max_component_markets: 12
+  min_net_profit_dollars: 0.01
+  min_net_edge_bps: 1
+  solve_debounce_ms: 25
+
+orderbook:
+  default_depth: 100
+  stale_after_ms: 2000
+  resync_on_sequence_gap: true
+
+fees:
+  account_precision: 0.0001
+
+paper_execution:
+  enabled: true
+  latency_ms: 100
+  allow_partial_fill: false
+
+relations:
+  semantic_enabled: false
+  semantic_requires_manual_verification: true
+  nearest_neighbors: 10
+  manual_path: null
+  discover_exchange: true
+  discover_thresholds: true
+
+storage:
+  flush_interval_seconds: 5
+  write_max_attempts: 3
+  write_initial_backoff_seconds: 0.05
+  write_max_backoff_seconds: 1.0
+  parquet_partition_by_date: true
+
+collector:
+  inbound_queue_capacity: 1000
+  writer_queue_capacity: 1000
+  reconnect_max_attempts: 5
+  reconnect_initial_backoff_seconds: 0.5
+  reconnect_max_backoff_seconds: 8.0
+  open_timeout_seconds: 10.0
+  close_timeout_seconds: 5.0
+  writer_batch_size: 1000
+  writer_flush_interval_seconds: 1.0
+
+semantic:
+  provider: disabled
+  model: null
+  base_url: null
+  embedding_model: all-MiniLM-L6-v2
+  prompt_version: semantic-relations-v1

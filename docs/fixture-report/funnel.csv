@@ -1,0 +1,6 @@
+stage,input_count,evaluable_count,surviving_count,rate_per_market_hour,note
+midpoint_logical_violation,1,1,1,9000.0000000000000000000000000000000000000000000001,midpoint unavailable=0; legacy availability unknown=0
+one_contract_spread_survival,1,1,1,9000.0000000000000000000000000000000000000000000001,fixed one-contract probe; executable signals without a midpoint reference=0
+modeled_fee_survival,1,1,1,9000.0000000000000000000000000000000000000000000001,run-specific fee policy and account rounding
+actual_depth_survival,1,1,1,9000.0000000000000000000000000000000000000000000001,all net-executable episodes=1
+paper_execution_survival,1,1,0,0,failed=1; insufficient future data=0; not evaluated=0

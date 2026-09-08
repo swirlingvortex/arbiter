@@ -1,0 +1,22 @@
+{
+  "series": {
+    "ticker": "KXARBITER",
+    "frequency": "daily",
+    "title": "Arbiter schema fixtures",
+    "category": "Economics",
+    "tags": ["fixture", "research"],
+    "settlement_sources": [
+      {
+        "name": "Fixture Authority",
+        "url": "https://example.invalid/fixture",
+        "future_source_field": "preserved"
+      }
+    ],
+    "contract_url": "https://example.invalid/contract",
+    "contract_terms_url": "https://example.invalid/terms",
+    "fee_type": "quadratic",
+    "fee_multiplier": 1.25,
+    "last_updated_ts": "2026-09-03T12:00:00Z",
+    "future_series_field": true
+  }
+}

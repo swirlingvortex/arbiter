@@ -1,0 +1,22 @@
+{
+  "event_fee_changes": [
+    {
+      "id": "fee-change-future",
+      "event_ticker": "KXARBITER-26SEP06",
+      "series_ticker": "KXARBITER",
+      "fee_type_override": "quadratic_with_maker_fees",
+      "fee_multiplier_override": 1,
+      "scheduled_ts": "2026-09-06T01:40:00Z",
+      "future_field": "preserved"
+    },
+    {
+      "id": "fee-change-clear",
+      "event_ticker": "KXARBITER-26SEP06",
+      "series_ticker": "KXARBITER",
+      "fee_type_override": null,
+      "fee_multiplier_override": null,
+      "scheduled_ts": "2026-09-07T01:40:00Z"
+    }
+  ],
+  "cursor": ""
+}

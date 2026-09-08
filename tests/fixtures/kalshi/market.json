@@ -1,0 +1,28 @@
+{
+  "ticker": "KXARBITER-26SEP03-T100",
+  "event_ticker": "KXARBITER-26SEP03",
+  "market_type": "binary",
+  "title": "Will the fixture exceed 100?",
+  "subtitle": "Synthetic official-schema fixture",
+  "yes_sub_title": "Above 100",
+  "no_sub_title": "Not above 100",
+  "status": "active",
+  "created_time": "2026-09-01T12:00:00Z",
+  "updated_time": "2026-09-03T12:00:00Z",
+  "open_time": "2026-09-01T12:00:00Z",
+  "close_time": "2026-09-04T12:00:00Z",
+  "latest_expiration_time": "2026-09-04T13:00:00Z",
+  "expected_expiration_time": "2026-09-04T12:30:00Z",
+  "occurrence_datetime": "2026-09-04T11:00:00Z",
+  "strike_type": "greater",
+  "floor_strike": 100.5,
+  "functional_strike": "greater",
+  "rules_primary": "Resolves YES if the fixture is above 100.5.",
+  "rules_secondary": "The named source is authoritative.",
+  "price_level_structure": "linear_cent",
+  "price_ranges": [
+    {"start": "0.0000", "end": "1.0000", "step": "0.0100"}
+  ],
+  "fractional_trading_enabled": true,
+  "future_additive_field": {"preserve": true}
+}

@@ -1,0 +1,37 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p8
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+reports/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated application data
+data/*.duckdb
+data/*.duckdb.*
+data/raw/*
+!data/raw/.gitkeep
+data/parquet/*
+!data/parquet/.gitkeep

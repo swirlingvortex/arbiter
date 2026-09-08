@@ -1,0 +1,24 @@
+{
+  "schedule_url": "https://kalshi.com/docs/kalshi-fee-schedule.pdf",
+  "schedule_effective_date": "2026-07-07",
+  "rounding_url": "https://docs.kalshi.com/getting_started/fee_rounding",
+  "captured_date": "2026-09-03",
+  "policy_version": "kalshi-prediction-fees-2026-07-07+rounding-2026-09-03",
+  "taker_formula": "M * 0.07 * C * P * (1 - P)",
+  "official_taker_examples": [
+    {"multiplier": "1", "quantity": "100", "price": "0.50", "raw_fee": "1.750000", "display_fee": "1.75"},
+    {"multiplier": "1", "quantity": "100", "price": "0.10", "raw_fee": "0.630000", "display_fee": "0.63"},
+    {"multiplier": "1", "quantity": "100", "price": "0.30", "raw_fee": "1.470000", "display_fee": "1.47"},
+    {"multiplier": "1", "quantity": "100", "price": "0.01", "raw_fee": "0.069300", "display_fee": "0.07"}
+  ],
+  "official_fcm_rounding_example": {
+    "account_precision": "0.01",
+    "price": "0.055",
+    "quantity": "1",
+    "model_fee": "0.00363825",
+    "trade_fee": "0.003639",
+    "aligned_change": "-0.060000",
+    "rounding_fee": "0.001361",
+    "net_fee": "0.005000"
+  }
+}

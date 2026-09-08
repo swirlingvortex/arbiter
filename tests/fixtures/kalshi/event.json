@@ -1,0 +1,21 @@
+{
+  "event": {
+    "event_ticker": "KXARBITER-26SEP03",
+    "series_ticker": "KXARBITER",
+    "title": "Arbiter schema fixture",
+    "sub_title": "Synthetic event",
+    "category": "Economics",
+    "mutually_exclusive": true,
+    "available_on_brokers": true,
+    "last_updated_ts": "2026-09-03T12:00:00Z",
+    "future_event_field": "preserved"
+  },
+  "markets": [
+    {
+      "ticker": "KXARBITER-26SEP03-T100",
+      "event_ticker": "KXARBITER-26SEP03",
+      "title": "Will the fixture exceed 100?",
+      "status": "active"
+    }
+  ]
+}
