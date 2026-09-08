@@ -6,24 +6,7 @@ they survive executable prices, displayed liquidity, fees, and latency-aware pap
 It implements a transparent pipeline of trusted logical relations, feasible settlement worlds,
 state-contingent payoffs, and linear optimization.
 
-## Status
-
-The offline engine through Milestone 11 is implemented. Strict manual/exchange/threshold
-relations feed feasible worlds and a depth-constrained, independently verified LP; public Kalshi
-REST metadata and order books
-are normalized and persisted; quantities are snapped to the documented grid; and dated current
-Kalshi fee policies, exact rounding, and Stage 0-3 opportunity evidence are modeled. The
-authenticated WebSocket collector now reconstructs books fail-closed and records normalized,
-replayable market-data events in date-partitioned Parquet. The bounded live scanner subscribes
-only to verified relation components, incrementally solves affected components, and persists
-run manifests, fresh-book observation windows, and deterministic opportunity episodes. Exact
-Schema-v2 scan recordings include indexed run, subscription, disconnect, staleness, metadata,
-fee, and terminal controls. Deterministic replay reconstructs its inputs from that immutable
-stream, follows the same engine path, and simulates latency-aware all-or-none paper execution.
-Semantic discovery is optional and proposal-only: an explicit review transaction is required to
-create a trusted `semantic_verified` relation, and changed source evidence revokes that projection.
-Milestone 11 adds unique-episode research analytics and fixture-derived Markdown, CSV, and Parquet
-artifacts. Release verification evidence lives in
+ Release verification evidence lives in
 [`docs/FINAL_AUDIT.md`](docs/FINAL_AUDIT.md); the architecture, mathematics, schemas, and
 research methodology are documented in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md),
 [`docs/MATH.md`](docs/MATH.md), [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md), and
